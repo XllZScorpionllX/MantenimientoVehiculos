@@ -215,3 +215,18 @@ footer {
     }
 }
 
+/*CSS PARA DEMOSTRACIONES*/
+.example-div{
+background-color: var(-Success-color-);
+padding: 15px;
+border-radius: var(-border-radius-);
+margin: 10px, 0;
+}
+.example-span{
+background-color: var(-Warning-color-);
+padding: 15px;
+border-radius: var(-border-radius-);
+margin: 10px, 0;
+}
+
+
