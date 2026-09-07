@@ -95,7 +95,7 @@ nav {
 .tags-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 2rem;  /* ✅ CORREGIDO: sin espacio entre 2 y rem */
+    gap: 2rem;  /* sin espacio entre 2 y rem */
     margin-bottom: 3rem;
 }
 
@@ -108,7 +108,7 @@ nav {
 }
 
 .tag-card:hover {
-    transform: translateY(-5px);  /* ✅ CORREGIDO: translateY */
+    transform: translateY(-5px);  /* : translateY */
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
@@ -217,14 +217,14 @@ footer {
 
 /*CSS PARA DEMOSTRACIONES*/
 .example-div {
-    background-color: var(--success-color);  /* ✅ CORREGIDO */
+    background-color: var(--success-color);  
     padding: 15px;
-    border-radius: var(--border-radius);     /* ✅ CORREGIDO */
-    margin: 10px 0;                          /* ✅ CORREGIDO */
+    border-radius: var(--border-radius);     
+    margin: 10px 0;                         
 }
 
 .example-span {
-    background-color: var(--warning-color);  /* ✅ CORREGIDO */
+    background-color: var(--warning-color); 
     padding: 2px 8px;
-    border-radius: var(--border-radius);     /* ✅ CORREGIDO */
+    border-radius: var(--border-radius);     
 }
