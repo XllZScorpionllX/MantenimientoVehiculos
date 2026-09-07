@@ -19,4 +19,4 @@ document.quetySelectorAll('nav a').forEach(anchor => {
       behavior: 'smooth'
     });
   }); 
-});                                        )
+});                                        
